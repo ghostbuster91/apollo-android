@@ -18,6 +18,8 @@ import java.util.Map;
 
 import javax.annotation.Nonnull;
 
+import io.reactivex.Scheduler;
+import io.reactivex.schedulers.Schedulers;
 import okhttp3.OkHttpClient;
 
 public class GitHuntApplication extends Application {
